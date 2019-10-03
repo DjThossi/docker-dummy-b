@@ -16,7 +16,7 @@
         </a>
     </div>
     <div id="dummy">
-        <a href="<?= getenv('LINK_TO_DOCKER_DUMMY_A') ?>" target="_blank">
+        <a href="<?= getenv('LINK_TO_DOCKER_DUMMY_A') ?>">
             <img src="sign-4069406_640.jpg" alt="To Dummy A" />
         </a>
     </div>

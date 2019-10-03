@@ -1,0 +1,20 @@
+{
+    "name": "DjThossi/docker-dummy-b",
+    "description": "This is a dummy project to explain DjThossi/docker-dev-scripts",
+    "type": "dummy",
+    "license": "Private Project. No copies allowed",
+    "authors": [
+        {
+            "name": "Sebastian Thoss",
+            "email": "dj_thossi@web.de",
+            "homepage": "http://www.sebastianthoss.de"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
