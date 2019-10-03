@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  php:
+    environment:
+      VIRTUAL_HOST: dummy-b.sebastianthoss.de
+#      LETSENCRYPT_HOST: dummy-b.sebastianthoss.de
+#      LETSENCRYPT_EMAIL: MAIL_ADDRESS
+
+networks:
+  default:
+    name: docker-dev-scripts
+    driver: bridge
