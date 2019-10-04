@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: docker/php/Dockerfile
+    container_name: docker-dummy-b_php
     volumes:
       - ./src:/var/www/
       - ~/.ssh:/root/.ssh
